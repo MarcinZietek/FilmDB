@@ -14,7 +14,8 @@ namespace FilmDB.Controllers
         }    
         public IActionResult Index()
         {
-            return View();
+            var films = _manager.GetFilms();
+            return View(films);
         }
         [HttpGet]
         public IActionResult Add()
@@ -26,6 +27,34 @@ namespace FilmDB.Controllers
         public IActionResult Add(FilmModel film)
         {
             _manager.AddFilm(film);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var filmToDelete = _manager.GetFilm(id);
+            return View(filmToDelete);          
+        }
+
+        [HttpPost]
+        public IActionResult Remove(int id)
+        {         
+            _manager.RemoveFilm(id);
+            return RedirectToAction("Index");           
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var filToEdit = _manager.GetFilm(id);
+            return View(filToEdit);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(FilmModel film)
+        {
+            _manager.UpdateFilm(film);
             return RedirectToAction("Index");
         }
     }

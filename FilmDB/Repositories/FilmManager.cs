@@ -19,11 +19,19 @@ namespace FilmDB.Repositories
 
         public FilmManager RemoveFilm(int id)
         {
+            var elementToDelete = GetFilm(id);
+            if (elementToDelete != null)
+            {
+                _context.Films.Remove(elementToDelete);
+                _context.SaveChanges();
+            }
             return this;
         }
 
         public FilmManager UpdateFilm(FilmModel filmModel)
         {
+            _context.Films.Update(filmModel);
+            _context.SaveChanges();
             return this;
         }
 
@@ -32,14 +40,16 @@ namespace FilmDB.Repositories
             return this;
         }
 
-        public FilmManager GetFilm(int id)
+        public FilmModel GetFilm(int id)
         {
-            return null;
+            var film = _context.Films.SingleOrDefault(x => x.ID == id);
+            return film;
         }
 
         public List<FilmModel> GetFilms()
         {
-            return null;
+            var films = _context.Films.ToList();
+            return films;
         }
     }
 }
