@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\models\\filmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:models\\filmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilmModel.cs",
+              "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Models\\FilmModel.cs",
+              "RelativeDocumentMoniker": "Models\\FilmModel.cs",
+              "ToolTip": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Models\\FilmModel.cs",
+              "RelativeToolTip": "Models\\FilmModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:12:43.146Z",
+              "EditorCaption": ""
             }
           ]
         }
