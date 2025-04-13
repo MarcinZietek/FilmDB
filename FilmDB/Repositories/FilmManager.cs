@@ -1,11 +1,19 @@
-﻿using FilmDB.Models;
+﻿using FilmDB.Controllers.Data;
+using FilmDB.Models;
 
 namespace FilmDB.Repositories
 {
     public class FilmManager
     {
+        private FilmContext _context;
+        public FilmManager(FilmContext context)
+        {
+            _context = context;
+        }
         public FilmManager AddFilm(FilmModel filmModel)
         {
+            _context.Films.Add(filmModel);
+            _context.SaveChanges();
             return this;
         }
 
