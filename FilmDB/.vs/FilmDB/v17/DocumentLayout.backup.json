@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\controllers\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:controllers\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\views\\film\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:views\\film\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\repositories\\filmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:repositories\\filmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|solutionrelative:data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA73C866-1745-4AE3-9BCA-5B28FA19E903}|FilmDB.csproj|c:\\users\\praca\\documents\\github\\filmdb\\filmdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,33 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Views\\Film\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Film\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Views\\Film\\Add.cshtml",
+              "RelativeToolTip": "Views\\Film\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T13:56:50.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FilmController.cs",
               "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Controllers\\FilmController.cs",
               "RelativeDocumentMoniker": "Controllers\\FilmController.cs",
               "ToolTip": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Controllers\\FilmController.cs",
               "RelativeToolTip": "Controllers\\FilmController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:27:43.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FilmManager.cs",
               "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Repositories\\FilmManager.cs",
               "RelativeDocumentMoniker": "Repositories\\FilmManager.cs",
               "ToolTip": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Repositories\\FilmManager.cs",
               "RelativeToolTip": "Repositories\\FilmManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:18:36.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -81,12 +98,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FilmContext.cs",
-              "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Controllers\\Data\\FilmContext.cs",
-              "RelativeDocumentMoniker": "Controllers\\Data\\FilmContext.cs",
-              "ToolTip": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Controllers\\Data\\FilmContext.cs",
-              "RelativeToolTip": "Controllers\\Data\\FilmContext.cs",
+              "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Data\\FilmContext.cs",
+              "RelativeDocumentMoniker": "Data\\FilmContext.cs",
+              "ToolTip": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\Data\\FilmContext.cs",
+              "RelativeToolTip": "Data\\FilmContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T12:38:08.807Z",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Praca\\Documents\\GitHub\\FilmDB\\FilmDB\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

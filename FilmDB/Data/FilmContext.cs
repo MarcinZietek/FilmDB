@@ -1,7 +1,7 @@
 ﻿using FilmDB.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace FilmDB.Controllers.Data
+namespace FilmDB.Data
 {
     public class FilmContext : DbContext
     {

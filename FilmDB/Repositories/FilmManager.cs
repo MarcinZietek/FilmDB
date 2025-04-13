@@ -1,4 +1,4 @@
-﻿using FilmDB.Controllers.Data;
+﻿using FilmDB.Data;
 using FilmDB.Models;
 
 namespace FilmDB.Repositories
